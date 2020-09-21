@@ -46,7 +46,7 @@ public class Ex03_Vacation {
                 totalPrice = groupSize * 22.5;
             }
             if (groupSize>= 10 && groupSize<=20) {
-                totalPrice = totalPrice - (totalPrice+0.05);
+                totalPrice = totalPrice - (totalPrice * 0.05);
             }
         }
 
