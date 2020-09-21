@@ -28,7 +28,7 @@ public class Ex07_VendingMachine {
                 if (coinInput == 0.1 || coinInput == 0.2 || coinInput == 0.5 || coinInput == 1 || coinInput == 2) {
                     sum += Double.parseDouble(input);
                 } else {
-                    System.out.println(String.format("Cannot accept %.2f", coinInput));
+                    System.out.printf("Cannot accept %.2f%n", coinInput);
                 }
             }
         }
