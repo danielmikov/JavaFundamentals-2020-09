@@ -8,13 +8,12 @@ public class Ex05_PrintPartOfASCIITable {
 
         int start = Integer.parseInt(scanner.nextLine());
         int end = Integer.parseInt(scanner.nextLine());
-        char print = 0;
 
         for (int i = start; i < end; i++) {
-            print = (char) i;
+            char print = (char) i;
             System.out.print(print + " ");
         }
-        print = (char) end;
+        char print = (char) end;
         System.out.println(print);
     }
 }
