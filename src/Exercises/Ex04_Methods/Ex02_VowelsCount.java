@@ -2,7 +2,7 @@ package Exercises.Ex04_Methods;
 
 import java.util.Scanner;
 
-public class Ex05_VowelsCount {
+public class Ex02_VowelsCount {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
