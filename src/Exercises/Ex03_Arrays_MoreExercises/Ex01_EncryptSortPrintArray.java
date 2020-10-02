@@ -18,7 +18,7 @@ public class Ex01_EncryptSortPrintArray {
             int sum = 0;
             for (int j = 0; j < sequence.length(); j++) {
                 char currentChar = sequence.charAt(j);
-// check if Vowel or Consanant
+// check if Vowel or Consonant
                 if (isVowel(currentChar)) {
                     sum += currentChar * len;
                 } else {
